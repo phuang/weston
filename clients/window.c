@@ -942,7 +942,7 @@ shm_surface_leaf_release(struct shm_surface_leaf *leaf)
 	memset(leaf, 0, sizeof *leaf);
 }
 
-#define MAX_LEAVES 3
+#define MAX_LEAVES 6
 
 struct shm_surface {
 	struct toysurface base;
